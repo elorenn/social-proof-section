@@ -13,6 +13,27 @@
   padding: 0;
 }
 
+h1,
+.ratings p {
+  color: var(--very-dark-magenta);
+}
+
+h2 {
+  color: var(--white);
+}
+
+h3 {
+  color: var(--soft-pink);
+}
+
+p {
+  color: var(--dark-grayish-magenta);
+}
+
+.review p {
+  color: var(--light-grayish-magenta);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background-color: var(--white);
@@ -26,6 +47,16 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left 0 top 0, right 0 bottom 0;
+}
+
+.ratings {
+  background-color: var(--light-grayish-magenta);
+  border-radius: 10px;
+}
+
+.review {
+  background-color: var(--very-dark-magenta);
+  border-radius: 10px;
 }
 
 footer {
