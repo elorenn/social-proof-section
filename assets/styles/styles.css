@@ -136,7 +136,7 @@ footer {
   }
 
   main {
-    padding: 100px;
+    padding: 115px;
   }
 
   main .top,
@@ -151,5 +151,21 @@ footer {
     flex-direction: row;
     width: 445px;
     height: 56px;
+  }
+
+  .ratings:first-of-type {
+    transform: translateX(-6rem);
+  }
+
+  .ratings:nth-of-type(2) {
+    transform: translateX(-3rem);
+  }
+
+  .review:first-of-type {
+    transform: translateY(-1rem);
+  }
+
+  .review:last-of-type {
+    transform: translateY(1rem);
   }
 }
