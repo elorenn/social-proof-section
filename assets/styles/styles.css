@@ -13,6 +13,10 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 h1,
 .ratings p {
   color: var(--very-dark-magenta);
@@ -135,6 +139,10 @@ footer {
     background-size: auto;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
   main {
     padding: 115px;
   }
@@ -143,8 +151,13 @@ footer {
   main .bottom {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+  }
+
+  .top section {
+    flex-basis: 33%;
   }
 
   .ratings {
