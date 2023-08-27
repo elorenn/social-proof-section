@@ -59,6 +59,10 @@ body {
   border-radius: 10px;
 }
 
+.review img {
+  border-radius: 100px;
+}
+
 footer {
   position: fixed;
   left: 0;
