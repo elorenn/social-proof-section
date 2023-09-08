@@ -197,8 +197,13 @@ footer {
     height: 3.5rem;
   }
 
+  .star-wrapper {
+    margin-top: unset;
+  }
+
   .ratings p {
     padding-right: 45px;
+    margin-bottom: unset;
   }
 
   .ratings:first-of-type {
